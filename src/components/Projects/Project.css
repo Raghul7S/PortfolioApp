@@ -82,3 +82,9 @@
         right: -7rem;
     }
 }
+
+@media (max-width: 310px){
+    .arrow-right{
+        right: -7.5rem;
+    }
+}

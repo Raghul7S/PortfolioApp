@@ -42,8 +42,21 @@ export const SKILLS = [
 ];
 
 export const WORK_EXPERIENCE = [
+
     {
-        title:"Social Media Post App",
+        title:"1. Code Pen Editor Clone",
+        subject:"Simple Code Pen Editor",
+        responsibilities:[
+            "Developed a CodePen clone using React.",
+            "Integrated the Codemirror package for accessing HTML, CSS, and JavaScript functionalities.",
+            "Utilized local storage to maintain code state across page reloads.",
+            "Demonstrated proficiency in React, Codemirror, and front-end development skills.",
+            "Provided a platform for users to experiment with code.",
+        ],
+    },
+
+    {
+        title:"2. Social Media Post App",
         subject:"An app using CRUD operation and API",
         responsibilities:[
             "Developed a social media post application using React.",
@@ -55,7 +68,7 @@ export const WORK_EXPERIENCE = [
     },
 
     {
-        title:"Trip App",
+        title:"3. Trip App",
         subject:"An Trip booking app UI",
         responsibilities:[
             "Developed a travel trip app UI using React.",
@@ -67,7 +80,7 @@ export const WORK_EXPERIENCE = [
     },
 
     {
-        title:"Flappy Bird Game",
+        title:"4. Flappy Bird Game",
         subject:"Developed using JS",
         responsibilities:[
             "Cloned the popular Flappy Bird game using JavaScript.",
@@ -79,7 +92,7 @@ export const WORK_EXPERIENCE = [
     },
 
     {
-        title:"Simple Calculator",
+        title:"5. Simple Calculator",
         subject:"Basic Calculator uing JS",
         responsibilities:[
             "Created a basic calculator using HTML, CSS, and JavaScript.",
@@ -91,7 +104,7 @@ export const WORK_EXPERIENCE = [
     },
 
     {
-        title:"Online Academy",
+        title:"6. Online Academy",
         subject:"User Interface of an Academy website",
         responsibilities:[
             "Developed an online software academy website using Bootstrap.",

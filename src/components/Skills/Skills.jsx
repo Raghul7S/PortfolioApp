@@ -28,12 +28,14 @@ const Skills = () => {
                 />
               ))}
             </div>
+
             <div className="skills-info">
               <SkillsinfoCard
                 heading={selectedSkill.title}
                 skills={selectedSkill.skills}
                />
             </div>
+            
         </div>
     </section>
   )
