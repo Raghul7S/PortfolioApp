@@ -92,7 +92,19 @@ export const WORK_EXPERIENCE = [
     },
 
     {
-        title:"5. Simple Calculator",
+        title:"5. Waether App",
+        subject:"Developed using Js",
+        responsibilities:[
+            "Created a Weather App using HTML, CSS and JavaScript.",
+            "User can enter the name of a city to fetch weather data.",
+            "Triggers the weather data fetch for the specified city.",
+            "Shows the city name and weather description.",
+            "Alerts the user if the city is not found or if there is an error fetching data.",
+        ]
+    },
+
+    {
+        title:"6. Simple Calculator",
         subject:"Basic Calculator uing JS",
         responsibilities:[
             "Created a basic calculator using HTML, CSS, and JavaScript.",
@@ -104,7 +116,7 @@ export const WORK_EXPERIENCE = [
     },
 
     {
-        title:"6. Online Academy",
+        title:"7. Online Academy",
         subject:"User Interface of an Academy website",
         responsibilities:[
             "Developed an online software academy website using Bootstrap.",
