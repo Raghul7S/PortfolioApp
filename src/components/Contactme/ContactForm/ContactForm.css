@@ -86,3 +86,9 @@
         margin-left: -55px;
     }
 }
+
+@media (max-width: 310px){
+    .social-icon li{
+        margin-left: -62px;
+    }
+}

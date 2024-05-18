@@ -19,7 +19,7 @@ const ContactForm = () => {
             </ul>
             <div className='icon-list'>
             <ul className='social-icon'>
-              <li><a href="https://wa.me/919345874415"><img src="./assets/whatsapp-icon.png" alt="WhatsApp" /></a></li>
+              <li><a href="https://wa.me/919345874415"><img src="./assets/whatsapp-icon.png" /></a></li>
               <li><a href="https://www.linkedin.com/in/raghul-v-67bb26281"><img src="./assets/linkedin-icon.png"  /></a></li>
               <li><a href="https://www.instagram.com/raghul7s/"><img src="./assets/instagram-icon.png"  /></a></li>
               <li><a href="https://www.facebook.com/raghul.vairavaraj"><img src="./assets/facebook-icon.png" /></a></li>
