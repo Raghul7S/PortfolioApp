@@ -37,11 +37,11 @@
 
 @media (max-width: 1025px){
     .arrow-left{
-        left: 0rem;
+        left: -1rem;
     }
 
     .arrow-right{
-        right: 0rem;
+        right: -1rem;
     }
 
 }
@@ -79,16 +79,22 @@
 
 @media (max-width: 320px){
     .arrow-right{
-        right: -5rem;
-    }
-
-    .experience-container{
-        margin-left: 30px;
+        left: 14rem;
     }
 }
 
 @media (max-width: 310px){
     .arrow-right{
         right: -5.5rem;
+    }
+}
+
+@media (max-width: 360px){
+    .arrow-right{
+        right: -2rem;
+    }
+
+    .experience-container{
+        margin-left: 20px;
     }
 }

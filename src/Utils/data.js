@@ -53,6 +53,7 @@ export const WORK_EXPERIENCE = [
             "Demonstrated proficiency in React, Codemirror, and front-end development skills.",
             "Provided a platform for users to experiment with code.",
         ],
+        link:"https://raghul7s.github.io/CodePen/",
     },
 
     {
@@ -65,6 +66,7 @@ export const WORK_EXPERIENCE = [
             "Focused on creating a responsive and user-friendly interface.",
             "Project showcases proficiency in React, API integration, and front-end development skills.",
         ],
+        link:"https://github.com/Raghul7S/Social-Media-Post-App----React",
     },
 
     {
@@ -77,6 +79,7 @@ export const WORK_EXPERIENCE = [
             "Included features to enhance the user experience, such as intuitive controls and clear information presentation.",
             "Project showcases proficiency in React, UI design, and responsive web development skills.",
         ],
+        link:"https://github.com/Raghul7S/Trip-Website----React",
     },
 
     {
@@ -89,6 +92,7 @@ export const WORK_EXPERIENCE = [
             "Included a restart button for restarting the game.",
             "Implemented game mechanics faithful to the original Flappy Bird game.",
         ],
+        link:"https://github.com/Raghul7S/Flappy-Bird-Game----JS",
     },
 
     {
@@ -100,7 +104,8 @@ export const WORK_EXPERIENCE = [
             "Triggers the weather data fetch for the specified city.",
             "Shows the city name and weather description.",
             "Alerts the user if the city is not found or if there is an error fetching data.",
-        ]
+        ],
+        link:"https://github.com/Raghul7S/WeatherApp",
     },
 
     {
@@ -113,6 +118,7 @@ export const WORK_EXPERIENCE = [
             "Used JavaScript to handle user input and perform the arithmetic calculations.",
             "Ensured the calculator is functional and responsive on various devices.",
         ],
+        link:"https://github.com/Raghul7S/Simple-Calculator",
     },
 
     {
@@ -125,5 +131,6 @@ export const WORK_EXPERIENCE = [
             "Designed the UI to be user-friendly, intuitive, and visually appealing.",
             "Project showcases proficiency in Bootstrap for responsive web design and UI development.",
         ],
+        link:"https://github.com/Raghul7S/Online-Academy----Bootstrap",
     },
 ];

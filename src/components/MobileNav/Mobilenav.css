@@ -55,6 +55,7 @@
   }
 
   .mobile-menu{
+    display: block;
     justify-content: end;
   }
 }

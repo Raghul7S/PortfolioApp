@@ -23,6 +23,16 @@
     margin-bottom: 1.3rem;
 }
 
+.title-icon{
+    display: flex;
+}
+
+.github-link{
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+}
+
 .project-card ul li{
     list-style: none;
     font-size: 0.8rem;
@@ -79,5 +89,8 @@
     .project-card ul li{
         font-size: 0.55rem;
     }
-}
 
+    .github-link{
+       font-size: 15px;
+    }
+}
