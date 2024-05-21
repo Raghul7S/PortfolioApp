@@ -96,7 +96,7 @@ export const WORK_EXPERIENCE = [
     },
 
     {
-        title:"5. Waether App",
+        title:"5. Weather App",
         subject:"Developed using Js",
         responsibilities:[
             "Created a Weather App using HTML, CSS and JavaScript.",
