@@ -9,7 +9,7 @@ const ContactForm = () => {
               <li>Name</li>
               <li>Email</li>
               <li>Phone</li>
-              <li>Adress</li>
+              <li>Address</li>
             </ul>
             <ul className='list-two'>
               <li>V Raghul</li>

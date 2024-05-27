@@ -110,7 +110,7 @@ export const WORK_EXPERIENCE = [
 
     {
         title:"6. Simple Calculator",
-        subject:"Basic Calculator uing JS",
+        subject:"Basic Calculator using JS",
         responsibilities:[
             "Created a basic calculator using HTML, CSS, and JavaScript.",
             "Implemented arithmetic operations such as addition, subtraction, multiplication, and division.",
