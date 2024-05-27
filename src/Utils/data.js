@@ -79,7 +79,7 @@ export const WORK_EXPERIENCE = [
             "Included features to enhance the user experience, such as intuitive controls and clear information presentation.",
             "Project showcases proficiency in React, UI design, and responsive web development skills.",
         ],
-        link:"https://github.com/Raghul7S/Trip-Website----React",
+        link:"https://raghul7s.github.io/Trip-Website/",
     },
 
     {
