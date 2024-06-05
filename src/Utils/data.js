@@ -16,7 +16,6 @@ export const SKILLS = [
             {skill:"Express",percentage:"50%"},
             {skill:"Node.js",percentage:"50%"},
             {skill:"MongoDB",percentage:"60%"},
-            {skill:"SQL",percentage:"75%"},
         ],
     },
     {
