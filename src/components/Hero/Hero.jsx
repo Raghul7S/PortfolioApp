@@ -7,7 +7,7 @@ const Hero = () => {
       <div className='hero-content'>
         <h2>Building Digital Experience That Inspire.</h2>
         <p>
-          Passionate Frontend Developer | Transforming Ideas into Seamless and Visually Stunning Web Solutions.
+          Passionate Fullstack Developer in MERN | Transforming Ideas into Seamless and Visually Stunning Web Solutions | Team collaborator
         </p>
         <div className='about-me'>
           <h4>About Me</h4>

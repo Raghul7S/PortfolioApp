@@ -67,8 +67,17 @@
 }
 
 @media (max-width: 768px){
+
+    .list-one{
+        margin-right: -1.5rem;
+    }
+
     .contact-me{
         font-size: 0.6rem;
+    }
+
+    .icon-list{
+        padding-left: 10px;
     }
 
     .social-icon img{
@@ -77,17 +86,27 @@
     }
 
     .social-icon li{
-        margin-left: -35px;
+        margin-left: -45px;
     }
 }
 
 @media (max-width: 320px){
     .social-icon li{
-        margin-left: -55px;
+        margin-left: -65px;
+    }
+
+    .social-icon img{
+        width: 1.2rem;
+        height: 1.2rem;
     }
 }
 
 @media (max-width: 310px){
+
+    .list-one{
+        margin-right: -2rem;
+    }
+
     .social-icon li{
         margin-left: -62px;
     }

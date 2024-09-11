@@ -6,7 +6,8 @@ export const SKILLS = [
             {skill:"HTML5",percentage:"95%"},
             {skill:"CSS{Sass/Scss}",percentage:"90%"},
             {skill:"Javascript",percentage:"75%"},
-            {skill:"React.js",percentage:"75%"}
+            {skill:"React.js",percentage:"75%"},
+            {skill:"React Native", percentage:"50%"}
         ],
     },
     {
@@ -133,3 +134,4 @@ export const WORK_EXPERIENCE = [
         link:"https://github.com/Raghul7S/Online-Academy----Bootstrap",
     },
 ];
+
