@@ -92,7 +92,7 @@
 
 @media (max-width: 360px){
     .arrow-right{
-        right: -2rem;
+        right: 1rem;
     }
 
     .experience-container{
