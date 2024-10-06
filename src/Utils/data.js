@@ -7,7 +7,7 @@ export const SKILLS = [
             {skill:"CSS{Sass/Scss}",percentage:"90%"},
             {skill:"Javascript",percentage:"75%"},
             {skill:"React.js",percentage:"75%"},
-            {skill:"React Native", percentage:"50%"}
+            {skill:"React Native", percentage:"70%"}
         ],
     },
     {
@@ -37,11 +37,12 @@ export const SKILLS = [
             {skill:"Attention To Detail",percentage:"80%"},
             {skill:"Collaboration",percentage:"85%"},
             {skill:"Self Learning",percentage:"80%"},
+            {skill: "Logical Thinking",percentage:"80%"}
         ],
     },
 ];
 
-export const WORK_EXPERIENCE = [
+export const PROJECT_DETAIL = [
 
     {
         title:"1. Code Pen Editor Clone",
@@ -135,3 +136,31 @@ export const WORK_EXPERIENCE = [
     },
 ];
 
+export const WORK_EXPERIENCE = [
+
+    {
+        title: "1. Grafin IT (Currently working here since June 2024)",
+        subject: "Front-end Developer in Web Platform",
+        responsibilities: [
+            "Worked as a front-end developer using React.js on eCommerce and billing projects.",
+            "Designed front-end templates with integrated back-end logic for team efficiency.",
+            "Collaborated closely with back-end teams to align UI and data functionalities.",
+            "Implemented reusable components and optimized code for enhanced performance across various devices and browsers.",
+            "Actively participated in project planning and contributed ideas to improve user interaction and accessibility."
+        ],
+    },
+
+    {
+        title: "2. Grafin IT (Currently working here since June 2024)",
+        subject: "Front-end Developer in Mobile App Development",
+        responsibilities: [
+            "Developed mobile applications using React Native for billing and food delivery platforms.",
+            "Implemented essential front-end features like navigation, animations, and search functionality.",
+            "Created modular components for efficient app development and collaborated with back-end teams for seamless data integration.",
+            "Enhanced user experience with dynamic navbar and smooth transitions.",
+            "Contributed to the app's responsiveness and ease of use across multiple devices.",
+            "Worked closely with the UI/UX team to create designs that enhance user engagement and accessibility."
+        ],
+    }
+
+];

@@ -1,0 +1,101 @@
+.experience-container{
+    margin: 1rem;
+    position: relative;
+    padding-top: 90px;
+    margin-bottom: 2rem;
+}
+
+.experience-container h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.arrow-left,
+.arrow-right{
+    height: 2.2rem;
+    width: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6751b9;
+    border: 1.5px solid #6751b9;
+    border-radius: 0.65rem;
+    background: #130f2a;
+    position: absolute;
+    top: 55%;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.arrow-left{
+    left: -2rem;
+}
+
+.arrow-right{
+    right: -2rem;
+}
+
+@media (max-width: 1025px){
+    .arrow-left{
+        left: -1rem;
+    }
+
+    .arrow-right{
+        right: -1rem;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .experience-container{
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+
+    .arrow-left{
+        left: -1rem;
+    }
+
+    .arrow-right{
+        right: -1rem;
+    }
+}
+
+@media (max-width: 375px){
+    .experience-container h5{
+        font-size: 1.2rem;
+    }
+
+    .experience-content{
+        align-items: center;
+        width: 240px;
+    }
+
+    .arrow-right{
+        right: -3.7rem;
+    }
+}
+
+@media (max-width: 320px){
+    .arrow-right{
+        left: 14rem;
+    }
+}
+
+@media (max-width: 310px){
+    .arrow-right{
+        right: -5.5rem;
+    }
+}
+
+@media (max-width: 360px){
+    .arrow-right{
+        right: 1rem;
+    }
+
+    .experience-container{
+        margin-left: 20px;
+    }
+}

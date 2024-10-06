@@ -1,6 +1,6 @@
 import React, {useRef} from 'react';
 import './Project.css'
-import { WORK_EXPERIENCE } from '../../Utils/data'
+import { PROJECT_DETAIL } from '../../Utils/data'
 import Projectcard from './Projectcard/Projectcard'
 import Slider from 'react-slick';
 import { TbSlideshow } from 'react-icons/tb'
@@ -53,7 +53,7 @@ const Project = () => {
             </div>
 
             <Slider ref={sliderRef} {...settings}>
-            {WORK_EXPERIENCE.map((item)=>(
+            {PROJECT_DETAIL.map((item)=>(
                 <Projectcard key={item.title} details={item}/>
             ))}
             </Slider>

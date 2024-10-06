@@ -7,7 +7,7 @@ const Hero = () => {
       <div className='hero-content'>
         <h2>Building Digital Experience That Inspire.</h2>
         <p>
-          Passionate Fullstack Developer in MERN | Transforming Ideas into Seamless and Visually Stunning Web Solutions | Team collaborator
+        Passionate Fullstack Developer in MERN | Front-End Developer in Mobile App Development | Transforming Ideas into Seamless and Visually Stunning Web Solutions | Team Collaborator | Strong expertise in building responsive applications using React.js and React Native | Proven ability to collaborate with UI/UX teams to create user-centric designs and improve functionality
         </p>
         <div className='about-me'>
           <h4>About Me</h4>

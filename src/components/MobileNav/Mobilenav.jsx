@@ -24,7 +24,7 @@ export const Mobilenav = ({isOpen, toggleMenu}) => {
                 </li>
 
                 <li>
-                    <a className='menu-item' href='#projects'>Projects</a>
+                    <a className='menu-item' href='#projects'>Experience</a>
                 </li>
 
                 <li>
