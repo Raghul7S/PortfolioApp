@@ -10,7 +10,7 @@ const Hero = () => {
         Passionate Fullstack Developer in MERN | Front-End Developer in Mobile App Development | Transforming Ideas into Seamless and Visually Stunning Web Solutions | Team Collaborator | Strong expertise in building responsive applications using React.js and React Native | Proven ability to collaborate with UI/UX teams to create user-centric designs and improve functionality
         </p>
         <div className='about-me'>
-          <h4>About Me</h4>
+          <h4>Personal Information</h4>
           <div className='details'>
             <ul className='list-one'>
               <li>Name</li>

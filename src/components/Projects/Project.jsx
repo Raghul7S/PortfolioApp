@@ -3,7 +3,6 @@ import './Project.css'
 import { PROJECT_DETAIL } from '../../Utils/data'
 import Projectcard from './Projectcard/Projectcard'
 import Slider from 'react-slick';
-import { TbSlideshow } from 'react-icons/tb'
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 
@@ -13,7 +12,7 @@ const Project = () => {
 
     const settings = {
         dots: false,
-        infinite:true,
+        infinite:false,
         speed: 500,
         slidesToShow: 2,
         slidesToScroll: 1,
