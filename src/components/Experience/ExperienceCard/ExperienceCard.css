@@ -42,6 +42,10 @@
     top: 0.35rem;
 }
 
+.project-card::-webkit-scrollbar{
+    display: none;
+}
+
 @media (max-width: 1025px){
     .project-card{
         height: 355px;

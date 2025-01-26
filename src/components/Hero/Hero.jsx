@@ -7,8 +7,7 @@ const Hero = () => {
       <div className='hero-content'>
         <h2>Building Digital Experience That Inspire.</h2>
         <p>
-        Passionate Fullstack Developer in MERN | Front-End Developer in Mobile App Development | Transforming Ideas into Seamless and Visually Stunning Web Solutions | Team Collaborator | Strong expertise in building responsive applications using React.js and React Native | Proven ability to collaborate with UI/UX teams to create user-centric designs and improve functionality
-        </p>
+        Professional front-end developer specializing in React.js and React Native with experience in building responsive web and mobile applications. Proficient in developing user-centric interfaces and delivering seamless user experiences. Skilled in problem-solving, collaborating effectively within teams.        </p>
         <div className='about-me'>
           <h4>Personal Information</h4>
           <div className='details'>
@@ -26,7 +25,7 @@ const Hero = () => {
               <li>B.Sc (Mathematics)</li>
               <li>raghulvairavaraj@gmail.com</li>
               <li>+91 9345874415</li>
-              <li>Keelapavoor, Tenkasi</li>
+              <li>84, Keelapavoor, Tenkasi</li>
             </ul>
           </div>
         </div>

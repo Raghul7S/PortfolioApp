@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     position: relative;
-    padding-top: 45px;
+    padding-top: 80px;
 }
 
 .hero-container::after,

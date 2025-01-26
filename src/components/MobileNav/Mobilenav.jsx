@@ -4,7 +4,7 @@ import './Mobilenav.css'
 export const Mobilenav = ({isOpen, toggleMenu}) => {
 
     const redirectToResume = () => {
-        window.open('https://drive.google.com/file/d/1uja0Vv2y0lWwMg2lXnHAGuODlcsDbI-N/view?usp=drivesdk');
+        window.open('https://drive.google.com/file/d/1k06P_WjRmb3KLeunfGB9v0WzRNpGTir0/view?usp=sharing');
       };
 
   return (
@@ -24,7 +24,11 @@ export const Mobilenav = ({isOpen, toggleMenu}) => {
                 </li>
 
                 <li>
-                    <a className='menu-item' href='#projects'>Experience</a>
+                    <a className='menu-item' href='#experience'>Experience</a>
+                </li>
+
+                <li>
+                    <a className='menu-item' href='#projects'>Projects</a>
                 </li>
 
                 <li>
