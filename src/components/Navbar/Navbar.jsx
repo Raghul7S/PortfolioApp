@@ -43,7 +43,7 @@ const Navbar = () => {
             </li>
 
             <button className='contact-btn'  onClick={redirectToResume}>
-               My Cv
+               Resume
             </button>
             
           </ul>

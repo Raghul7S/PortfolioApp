@@ -5,18 +5,17 @@ export const SKILLS = [
         skills: [
             { skill: "HTML5", percentage: "95%" },
             { skill: "CSS{Sass/Scss}", percentage: "90%" },
-            { skill: "Javascript", percentage: "75%" },
-            { skill: "React.js", percentage: "75%" },
-            { skill: "React Native", percentage: "70%" }
+            { skill: "Javascript", percentage: "50%" },
+            { skill: "React.js", percentage: "60%" },
+            { skill: "React Native", percentage: "60%" }
         ],
     },
     {
         title: "Backend",
         icon: "./assets/backend-logo.png",
         skills: [
-            { skill: "Express", percentage: "50%" },
-            { skill: "Node.js", percentage: "50%" },
-            { skill: "MongoDB", percentage: "60%" },
+            { skill: "Node.js", percentage: "25%" },
+            { skill: "MongoDB", percentage: "50%" },
         ],
     },
     {
