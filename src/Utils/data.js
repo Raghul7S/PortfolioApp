@@ -44,7 +44,18 @@ export const SKILLS = [
 export const PROJECT_DETAIL = [
 
     {
-        title: "1. Code Pen Editor Clone",
+        title: "1. ToDo List Mobile Application",
+        subject: "Simple ToDo list app",
+        responsibilities: [
+            "Developed a ToDo list app as mobile application.",
+            "Easily create, modify, or remove tasks with a simple tap.",
+            "Implemented AsyncStorage to save tasks locally, ensuring data is retained even after closing the app.",
+            "Integrated theme switching for both light and dark modes."
+        ],
+        link: "https://github.com/Raghul7S/Todo-MobileApp"
+    },
+    {
+        title: "2. Code Pen Editor Clone",
         subject: "Simple Code Pen Editor",
         responsibilities: [
             "Developed a CodePen clone using React.",
@@ -57,7 +68,7 @@ export const PROJECT_DETAIL = [
     },
 
     {
-        title: "2. Social Media Post App",
+        title: "3. Social Media Post App",
         subject: "An app using CRUD operation and API",
         responsibilities: [
             "Developed a social media post application using React.",
@@ -70,7 +81,7 @@ export const PROJECT_DETAIL = [
     },
 
     {
-        title: "3. Trip App",
+        title: "4. Trip App",
         subject: "An Trip booking app UI",
         responsibilities: [
             "Developed a travel trip app UI using React.",
@@ -83,7 +94,7 @@ export const PROJECT_DETAIL = [
     },
 
     {
-        title: "4. Flappy Bird Game",
+        title: "5. Flappy Bird Game",
         subject: "Developed using JS",
         responsibilities: [
             "Cloned the popular Flappy Bird game using JavaScript.",
@@ -96,7 +107,7 @@ export const PROJECT_DETAIL = [
     },
 
     {
-        title: "5. Weather App",
+        title: "6. Weather App",
         subject: "Developed using Js",
         responsibilities: [
             "Created a Weather App using HTML, CSS and JavaScript.",
@@ -109,7 +120,7 @@ export const PROJECT_DETAIL = [
     },
 
     {
-        title: "6. Simple Calculator",
+        title: "7. Simple Calculator",
         subject: "Basic Calculator using JS",
         responsibilities: [
             "Created a basic calculator using HTML, CSS, and JavaScript.",
@@ -122,7 +133,7 @@ export const PROJECT_DETAIL = [
     },
 
     {
-        title: "7. Online Academy",
+        title: "8. Online Academy",
         subject: "User Interface of an Academy website",
         responsibilities: [
             "Developed an online software academy website using Bootstrap.",

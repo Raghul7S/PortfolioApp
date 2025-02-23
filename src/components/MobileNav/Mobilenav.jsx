@@ -37,8 +37,8 @@ export const Mobilenav = ({isOpen, toggleMenu}) => {
 
                 <button className='contact-btn' onClick={redirectToResume}>
                    Resume
-                </button> 
-
+                </button>
+                
             </ul>
         </div>
     </div>
