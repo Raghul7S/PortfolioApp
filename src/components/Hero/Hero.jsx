@@ -8,7 +8,7 @@ const Hero = () => {
         <h2>Building Digital Experience That Inspire.</h2>
         <p>
         Professional front-end developer specializing in React.js and React Native with experience in building responsive web and mobile applications. Proficient in developing user-centric interfaces and delivering seamless user experiences. Skilled in problem-solving, collaborating effectively within teams.        </p>
-        <div className='about-me'>
+        {/* <div className='about-me'>
           <h4>Personal Information</h4>
           <div className='details'>
             <ul className='list-one'>
@@ -28,7 +28,7 @@ const Hero = () => {
               <li>84, Keelapavoor, Tenkasi</li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className='hero-img'>
