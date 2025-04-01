@@ -13,7 +13,7 @@ const Navbar = () => {
 
   const redirectToResume = () => {
     window.open(
-      "https://drive.google.com/file/d/1tLOqXt3BCNb7alsVL7EfhC2-WVCSSu81/view?usp=sharing"
+      "https://drive.google.com/file/d/1rAKnOJsqKiHE91weYu5FFl9LtsJVCOA2/view?usp=sharing"
     );
   };
 
