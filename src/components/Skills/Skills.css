@@ -86,6 +86,6 @@
 
 @media (max-width: 600px) {
   .skills-container {
-    padding: 0;
+    margin-top: 50px;
   }
 }

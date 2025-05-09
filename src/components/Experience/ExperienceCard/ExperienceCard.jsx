@@ -1,23 +1,19 @@
-import React from 'react'
-import './ExperienceCard.css'
+import "./ExperienceCard.css";
 
-
-const ExperienceCard = ({details}) => {
+const ExperienceCard = ({ details }) => {
   return (
-    <div className='project-card'>
-      <div className='title-icon'>
+    <div className="project-card">
+      <div className="title-icon">
         <h6>{details.title}</h6>
-      </div>   
-        <div className="project-subject">
-          {details.subject}
-        </div>
-        <ul>
-            {details.responsibilities.map((item)=>(
-                <li key={item}>{item}</li>
-            ))}
-        </ul>
+      </div>
+      <div className="project-subject">{details.subject}</div>
+      <ul>
+        {details.responsibilities.map((item) => (
+          <li key={item}>{item}</li>
+        ))}
+      </ul>
     </div>
-  )
-}
+  );
+};
 
-export default ExperienceCard
+export default ExperienceCard;
