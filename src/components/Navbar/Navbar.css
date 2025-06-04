@@ -85,6 +85,8 @@
     color: #a993fe;
     background: black;
     outline: 1.5px solid #a993fe;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #a993fe88;
 }
 
 .menu-btn{
@@ -105,6 +107,8 @@
     color: #a993fe;
     background: black;
     outline: 1.5px solid #a993fe;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #a993fe88;
 }
 
 @media (max-width: 425px){

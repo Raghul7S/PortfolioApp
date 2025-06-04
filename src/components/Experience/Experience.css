@@ -23,17 +23,9 @@
     border-radius: 0.65rem;
     background: #130f2a;
     position: absolute;
-    top: 55%;
+    top: 60%;
     z-index: 2;
     cursor: pointer;
-}
-
-.arrow-left{
-    left: -2rem;
-}
-
-.arrow-right{
-    right: -2rem;
 }
 
 @media (max-width: 1025px){

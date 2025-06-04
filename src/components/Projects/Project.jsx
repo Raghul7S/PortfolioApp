@@ -11,7 +11,7 @@ const Project = () => {
 
   const settings = {
     dots: false,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
@@ -37,7 +37,7 @@ const Project = () => {
 
   return (
     <section className="experience-container" id="projects">
-      <h5>Project Details</h5>
+      <h5>Projects</h5>
 
       <div className="experience-content">
         <div className="arrow-right" onClick={slideRight}>
