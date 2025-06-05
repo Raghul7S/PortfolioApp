@@ -40,11 +40,11 @@ const Experience = () => {
       <h5>Experience</h5>
 
       <div className="experience-content">
-        <div className="arrow-right" onClick={slideRight}>
+        <div className="right-arrow" onClick={slideRight}>
           <FaChevronRight />
         </div>
 
-        <div className="arrow-left" onClick={slideLeft}>
+        <div className="left-arrow" onClick={slideLeft}>
           <FaChevronLeft />
         </div>
 

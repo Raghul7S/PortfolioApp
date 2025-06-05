@@ -1,6 +1,6 @@
 import React from "react";
-import "./Projectcard.css";
 import { FaGithub } from "react-icons/fa";
+import "./Projectcard.css";
 
 const Projectcard = ({ details }) => {
   return (
