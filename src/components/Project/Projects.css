@@ -1,0 +1,23 @@
+.projects-wrapper {
+    padding-top: 5.5rem;
+    margin: 1rem;
+}
+
+.projects-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 1.5rem;
+}
+
+@media (max-width: 375px){
+    .projects-title{
+        font-size: 1.2rem;
+    }
+}

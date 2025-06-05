@@ -1,35 +1,39 @@
-.project-card {
+.card {
+  margin-top: 1rem;
   background: #130f2a;
   border: 1.5px solid #6751b9;
-  border-radius: 12px;
+  border-radius: 0.65rem;
   overflow: hidden;
-  width: 300px;
+  width: 290px;
   color: #ffffff;
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
-.project-card:hover {
-  transform: scale(1.03);
+.card:hover {
+  transform: scale(1.02);
   box-shadow: 0 8px 20px rgba(103, 81, 185, 0.4);
 }
 
-.project-image {
+.image {
   width: 100%;
   height: 180px;
-  object-fit: cover;
+  object-fit: fill;
   border-bottom: 1px solid #6751b9;
+  border-bottom-right-radius: 0.33rem;
+  border-bottom-left-radius: 0.33rem;
+  box-shadow: 0 8px 20px rgba(103, 81, 185, 0.4);
 }
 
-.project-text-wrapper {
+.text-wrapper {
   padding: 16px;
 }
 
-.project-title {
+.title {
   font-size: 1.1rem;
   margin-bottom: 8px;
 }
 
-.project-subject {
+.subject {
   font-size: 0.95rem;
   color: #cfcfcf;
   display: flex;
@@ -37,17 +41,41 @@
   justify-content: space-between;
 }
 
-.github-icon-link {
-  margin-left: 10px;
+.icon-link {
+  padding-top: 10px;
   color: #cfcfcf;
   text-decoration: none;
+  animation: zoom 2s infinite;
+}
+
+.icon {
+  font-size: 1.8rem;
   transition: color 0.3s ease;
+  cursor: pointer;
 }
 
-.github-icon-link:hover {
-  color: #6751b9;
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
-.github-icon {
-  font-size: 1.1rem;
+@media (max-width: 599px) {
+  .title {
+    font-size: 0.95rem;
+  }
+
+  .subject {
+    font-size: 0.85rem;
+  }
+
+  .icon {
+    font-size: 1.5rem;
+  }
 }

@@ -44,23 +44,19 @@ export const SKILLS = [
 
 export const PROJECT_DETAIL = [
   {
-    title: "1. Film Discovery Site",
+    title: "Film Discovery Site",
     subject: "Movie exploring app",
-    preview: '../../public/assets/film_app.png',
-    responsibilities: [
+    preview: './assets/film_app.png',
+    overview: [
       "Developed a Movie Search and Discovery App using React and TMDB API.",
-      "Integrated the TMDB API to fetch real-time movie data, including titles, posters, and descriptions.",
-      "Added a responsive design to ensure seamless functionality across desktop and mobile devices.",
-      "Implemented a search feature to allow users to find movies by title or keyword.",
-      "Added a favorites feature to allow users to save and manage their favorite movies.",
     ],
     link: "https://raghul7s.github.io/MovieExplorer/",
   },
   {
-    title: "2. Code Pen Editor Clone",
+    title: "Code Pen Editor Clone",
     subject: "Simple Code Pen Editor",
-    preview: '../../public/assets/code_pen.png',
-    responsibilities: [
+    preview: './assets/code_pen.png',
+    overview: [
       "Developed a CodePen clone using React.",
       "Integrated the Codemirror package for accessing HTML, CSS, and JavaScript functionalities.",
       "Utilized local storage to maintain code state across page reloads.",
@@ -71,10 +67,10 @@ export const PROJECT_DETAIL = [
   },
 
   {
-    title: "3. Social Media Post App",
-    subject: "An app using CRUD operation and API",
-    preview: '../../public/assets/post_app.png',
-    responsibilities: [
+    title: "Social Media Post App",
+    subject: "An CRUD operation App",
+    preview: './assets/post_app.png',
+    overview: [
       "Developed a social media post application using React.",
       "Implemented CRUD (Create, Read, Update, Delete) functionality for managing posts.",
       "Integrated a local API to store and retrieve post data.",
@@ -85,10 +81,10 @@ export const PROJECT_DETAIL = [
   },
 
   {
-    title: "4. Trip App",
+    title: "Trip App",
     subject: "An Trip booking app UI",
-    preview: '../../public/assets/trip_app.png',
-    responsibilities: [
+    preview: './assets/trip_app.png',
+    overview: [
       "Developed a travel trip app UI using React.",
       "Ensured the UI is fully responsive, adapting to various screen sizes and devices.",
       "Designed the UI with a focus on user-friendliness and ease of navigation.",
@@ -99,10 +95,10 @@ export const PROJECT_DETAIL = [
   },
 
   {
-    title: "5. Flappy Bird Game",
-    subject: "Developed using JS",
-    preview: '../../public/assets/flappybird_app.png',
-    responsibilities: [
+    title: "Flappy Bird Game",
+    subject: "Flappy Bird Clone",
+    preview: './assets/flappybird_app.png',
+    overview: [
       "Cloned the popular Flappy Bird game using JavaScript.",
       "Ensured the game is responsive and user-friendly.",
       "Added a scoreboard to track the player's score.",
@@ -113,10 +109,10 @@ export const PROJECT_DETAIL = [
   },
 
   {
-    title: "6. Weather App",
-    subject: "Developed using Js",
-    preview: '../../public/assets/weather_app.png',
-    responsibilities: [
+    title: "Weather App",
+    subject: "Simple Weather App",
+    preview: './assets/weather_app.png',
+    overview: [
       "Created a Weather App using HTML, CSS and JavaScript.",
       "User can enter the name of a city to fetch weather data.",
       "Triggers the weather data fetch for the specified city.",
@@ -127,10 +123,10 @@ export const PROJECT_DETAIL = [
   },
 
   {
-    title: "7. Simple Calculator",
+    title: "Simple Calculator",
     subject: "Basic Calculator using JS",
-    preview: '../../public/assets/calculator_app.png',
-    responsibilities: [
+    preview: './assets/calculator_app.png',
+    overview: [
       "Created a basic calculator using HTML, CSS, and JavaScript.",
       "Implemented arithmetic operations such as addition, subtraction, multiplication, and division.",
       "Designed the calculator's interface with HTML and CSS for a visually appealing and intuitive user experience.",
@@ -141,10 +137,10 @@ export const PROJECT_DETAIL = [
   },
 
   {
-    title: "8. Online Academy",
-    subject: "User Interface of an Academy website",
-    preview: '../../public/assets/academy_app.png',
-    responsibilities: [
+    title: "Online Academy",
+    subject: "UI of an Academy website",
+    preview: './assets/academy_app.png',
+    overview: [
       "Developed an online software academy website using Bootstrap.",
       "Focused on designing the user interface (UI) using Bootstrap's components and utilities.",
       "Ensured the website is fully responsive, adapting seamlessly to various screen sizes and devices.",
