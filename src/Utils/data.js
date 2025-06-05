@@ -46,6 +46,7 @@ export const PROJECT_DETAIL = [
   {
     title: "1. Film Discovery Site",
     subject: "Movie exploring app",
+    preview: '../../public/assets/film_app.png',
     responsibilities: [
       "Developed a Movie Search and Discovery App using React and TMDB API.",
       "Integrated the TMDB API to fetch real-time movie data, including titles, posters, and descriptions.",
@@ -58,6 +59,7 @@ export const PROJECT_DETAIL = [
   {
     title: "2. Code Pen Editor Clone",
     subject: "Simple Code Pen Editor",
+    preview: '../../public/assets/code_pen.png',
     responsibilities: [
       "Developed a CodePen clone using React.",
       "Integrated the Codemirror package for accessing HTML, CSS, and JavaScript functionalities.",
@@ -71,6 +73,7 @@ export const PROJECT_DETAIL = [
   {
     title: "3. Social Media Post App",
     subject: "An app using CRUD operation and API",
+    preview: '../../public/assets/post_app.png',
     responsibilities: [
       "Developed a social media post application using React.",
       "Implemented CRUD (Create, Read, Update, Delete) functionality for managing posts.",
@@ -84,6 +87,7 @@ export const PROJECT_DETAIL = [
   {
     title: "4. Trip App",
     subject: "An Trip booking app UI",
+    preview: '../../public/assets/trip_app.png',
     responsibilities: [
       "Developed a travel trip app UI using React.",
       "Ensured the UI is fully responsive, adapting to various screen sizes and devices.",
@@ -97,6 +101,7 @@ export const PROJECT_DETAIL = [
   {
     title: "5. Flappy Bird Game",
     subject: "Developed using JS",
+    preview: '../../public/assets/flappybird_app.png',
     responsibilities: [
       "Cloned the popular Flappy Bird game using JavaScript.",
       "Ensured the game is responsive and user-friendly.",
@@ -110,6 +115,7 @@ export const PROJECT_DETAIL = [
   {
     title: "6. Weather App",
     subject: "Developed using Js",
+    preview: '../../public/assets/weather_app.png',
     responsibilities: [
       "Created a Weather App using HTML, CSS and JavaScript.",
       "User can enter the name of a city to fetch weather data.",
@@ -123,6 +129,7 @@ export const PROJECT_DETAIL = [
   {
     title: "7. Simple Calculator",
     subject: "Basic Calculator using JS",
+    preview: '../../public/assets/calculator_app.png',
     responsibilities: [
       "Created a basic calculator using HTML, CSS, and JavaScript.",
       "Implemented arithmetic operations such as addition, subtraction, multiplication, and division.",
@@ -136,6 +143,7 @@ export const PROJECT_DETAIL = [
   {
     title: "8. Online Academy",
     subject: "User Interface of an Academy website",
+    preview: '../../public/assets/academy_app.png',
     responsibilities: [
       "Developed an online software academy website using Bootstrap.",
       "Focused on designing the user interface (UI) using Bootstrap's components and utilities.",
