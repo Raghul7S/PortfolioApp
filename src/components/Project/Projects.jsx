@@ -15,6 +15,7 @@ const Projects = () => {
             subject={project.subject}
             preview={project.preview}
             link={project.link}
+            overview={project.overview}
             />
         ))}
     </div>

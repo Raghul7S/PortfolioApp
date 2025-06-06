@@ -1,11 +1,20 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
-import './ProjectCards.css'
+import './ProjectCards.css';
 
-const ProjectCard = ({ title, subject, preview, link }) => {
+const ProjectCard = ({ title, subject, preview, link, overview }) => {
   return (
     <div className="card">
-      <img src={preview} alt={title} className="image"/>
+      <div className="image-wrapper">
+        <img src={preview} alt={title} className="image" />
+        <div className="overlay">
+          <div className="overlay-text">
+            {overview.map((line, i) => (
+              <p key={i}>{line}</p>
+            ))}
+          </div>
+        </div>
+      </div>
       <div className="text-wrapper">
         <h3 className="title">{title}</h3>
         <p className="subject">

@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="hero-content">
         <h2>
           <Typewriter
-            words={["Building Scalable Mobile Apps with React Native."]}
+            words={["Building Visually Appealing Web and Mobile Apps."]}
             loop={1}
             cursor
             typeSpeed={80}
