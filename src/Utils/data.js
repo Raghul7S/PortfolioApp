@@ -44,7 +44,7 @@ export const SKILLS = [
 
 export const PROJECT_DETAIL = [
   {
-    title: "Film Discovery Site",
+    title: "Film World",
     subject: "Movie exploring app",
     preview: './assets/film_app.png',
     overview: [
@@ -55,7 +55,7 @@ export const PROJECT_DETAIL = [
     link: "https://raghul7s.github.io/MovieExplorer/",
   },
   {
-    title: "Code Pen Editor Clone",
+    title: "Code Pen Editor",
     subject: "Simple Code Pen Editor",
     preview: './assets/code_pen.png',
     overview: [
@@ -78,7 +78,7 @@ export const PROJECT_DETAIL = [
   },
 
   {
-    title: "Trip App",
+    title: "GoAt Travel",
     subject: "An Trip booking app UI",
     preview: './assets/trip_app.png',
     overview: [
