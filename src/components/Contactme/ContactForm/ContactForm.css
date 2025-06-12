@@ -5,8 +5,7 @@
 .about{
     display: flex;
     left: 0;
-    padding: 25px 0;
-    margin-top: 10px;
+    padding: 30px 0;
     line-height: 45px;
     border: 1.5px solid #6852ba;
     border-radius: 10px;
@@ -29,6 +28,7 @@
 
 .about > .list-one{
     list-style: none;
+    padding-right: 8px;
 }
 
 .about > .list-two{

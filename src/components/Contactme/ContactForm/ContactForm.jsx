@@ -10,12 +10,14 @@ const ContactForm = () => {
               <li>Email</li>
               <li>Phone</li>
               <li>Address</li>
+              <li>Qualification</li>
             </ul>
             <ul className='list-two'>
               <li>V Raghul</li>
               <li>raghulvairavaraj@gmail.com</li>
               <li>+91 9345874415</li>
-              <li>84, Keeraithotta Street, Keelapavoor 627806, Tenkasi, Tamil Nadu, India</li>
+              <li>Tenkasi, Tamil Nadu 627 806</li>
+              <li>Bachelor of Mathematics</li>
             </ul>
             <div className='icon-list'>
             <ul className='social-icon'>

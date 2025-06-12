@@ -20,7 +20,8 @@ const Hero = () => {
           Native with experience in building responsive web and mobile
           applications. Proficient in developing user-centric interfaces and
           delivering seamless user experiences. Skilled in problem-solving,
-          collaborating effectively within teams.{" "}
+          collaborating effectively within teams. Efficient in using AI tools to 
+          boost productivity and simplify debugging.{" "}
         </p>
       </div>
 

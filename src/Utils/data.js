@@ -131,7 +131,7 @@ export const PROJECT_DETAIL = [
     overview: [
       "Developed an online software academy website using Bootstrap.",
       "Focused on designing the user interface (UI) using Bootstrap's components and utilities.",
-      "Ensured the website is fully responsive, adapting seamlessly to various screen sizes and devices.",
+      "Ensured the website is fully responsive.",
     ],
     link: "https://github.com/Raghul7S/Online-Academy----Bootstrap",
   },
