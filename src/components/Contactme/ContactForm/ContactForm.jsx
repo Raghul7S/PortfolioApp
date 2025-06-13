@@ -1,36 +1,43 @@
-import React from 'react'
+import React, {useRef} from 'react'
+import emailjs from '@emailjs/browser';
+
 import './ContactForm.css'
 
 const ContactForm = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_uxkr5ym', 'template_77r12fl', form.current, {
+        publicKey: 'I0DCi7Tg2QMMHGzso',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+    
   return (
     <div className='contact-me'>
-          <div className='about'>
-            <ul className='list-one'>
-              <li>Name</li>
-              <li>Email</li>
-              <li>Phone</li>
-              <li>Address</li>
-              <li>Qualification</li>
-            </ul>
-            <ul className='list-two'>
-              <li>V Raghul</li>
-              <li>raghulvairavaraj@gmail.com</li>
-              <li>+91 9345874415</li>
-              <li>Tenkasi, Tamil Nadu 627 806</li>
-              <li>Bachelor of Mathematics</li>
-            </ul>
-            <div className='icon-list'>
-            <ul className='social-icon'>
-              <li><a href="https://wa.me/919345874415"><img src="./assets/whatsapp-icon.png" /></a></li>
-              <li><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><img src="./assets/linkedin-icon.png"  /></a></li>
-              <li><a href="https://www.instagram.com/raghul7s/"><img src="./assets/instagram-icon.png"  /></a></li>
-              <li><a href="https://www.facebook.com/raghul.vairavaraj"><img src="./assets/facebook-icon.png" /></a></li>
-            </ul>
-            </div>
-          </div>
-          
-          
-        </div>
+      <div className='about'>
+        <form ref={form} onSubmit={sendEmail}>
+          <label>Name</label>
+          <input type="text" name="from_name" />
+          <label>Email</label>
+          <input type="email" name="from_email" />
+          <label>Message</label>
+          <textarea name="message" />
+          <input type="submit" value="Send" />
+      </form>
+      </div>
+  </div>
   )
 }
 
