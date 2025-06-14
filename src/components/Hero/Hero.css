@@ -111,14 +111,6 @@
   border-radius: 10px;
 }
 
-.details > .list-one {
-  list-style: none;
-}
-
-.details > .list-two {
-  list-style-type: "-    ";
-}
-
 @media (max-width: 1025px) {
   .hero-content h2 {
     font-size: 3rem;
@@ -186,6 +178,10 @@
 }
 
 @media (max-width: 600px) {
+  .hero-container{
+    padding-top: 20px;
+  }
+  
   .hero-container h2 {
     font-size: 2.2rem;
     line-height: 3rem;
