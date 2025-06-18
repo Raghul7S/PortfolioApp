@@ -1,20 +1,20 @@
-.project-card {
+.experience-card {
   background: #130f2a;
   border-radius: 0.65rem;
   border: 1.5px solid #6751b9;
-  padding: 1.5rem;
+  padding: 1rem;
   margin: 0 1rem;
   height: 330px;
   overflow: auto;
 }
 
-.project-card h6 {
+.experience-card h6 {
   font-size: 1.05rem;
   font-weight: 500;
   margin-bottom: 0.7rem;
 }
 
-.project-subject {
+.experience-subject {
   display: inline-block;
   font-size: 0.7rem;
   font-weight: 400;
@@ -24,7 +24,11 @@
   margin-bottom: 1.3rem;
 }
 
-.project-card ul li {
+.experience-card ul {
+  padding-left: 2rem;
+}
+
+.experience-card ul li {
   list-style: none;
   font-size: 0.8rem;
   font-weight: 400;
@@ -32,7 +36,7 @@
   position: relative;
 }
 
-.project-card ul li::after {
+.experience-card ul li::after {
   content: " ";
   width: 0.5rem;
   height: 0.5rem;
@@ -43,44 +47,44 @@
   top: 0.35rem;
 }
 
-.project-card::-webkit-scrollbar {
+.experience-card::-webkit-scrollbar {
   display: none;
 }
 
 @media (max-width: 1025px) {
-  .project-card {
+  .experience-card {
     height: 355px;
     margin: 0;
   }
 }
 
 @media (max-width: 768px) {
-  .project-card {
+  .experience-card {
     margin: 0;
   }
 
-  .project-card h6 {
+  .experience-card h6 {
     font-size: 0.95rem;
   }
 
-  .project-card ul li {
+  .experience-card ul li {
     font-size: 0.75rem;
   }
 }
 
 @media (max-width: 425px) {
-  .project-card {
+  .experience-card {
     height: 360px;
     width: 100%;
     overflow: auto;
     margin: 0;
   }
 
-  .project-card h6 {
+  .experience-card h6 {
     font-size: 0.75rem;
   }
 
-  .project-card ul li {
+  .experience-card ul li {
     font-size: 0.55rem;
   }
 

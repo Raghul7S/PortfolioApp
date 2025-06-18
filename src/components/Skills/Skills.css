@@ -50,10 +50,6 @@
 }
 
 @media (max-width: 1025px) {
-  .skills {
-    padding-left: 1rem;
-  }
-
   .skills,
   .skills-content {
     grid-gap: 2rem;

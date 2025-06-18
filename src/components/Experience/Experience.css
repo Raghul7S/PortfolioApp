@@ -66,11 +66,6 @@
 
     .experience-content{
         align-items: center;
-        width: 240px;
-    }
-
-    .right-arrow{
-        right: -3.7rem;
     }
 }
 
@@ -88,10 +83,6 @@
 
 @media (max-width: 360px){
     .right-arrow{
-        right: 1rem;
-    }
-
-    .experience-container{
-        margin-left: 20px;
+        right: -1.1rem;
     }
 }

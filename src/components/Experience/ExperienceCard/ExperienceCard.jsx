@@ -2,12 +2,12 @@ import "./ExperienceCard.css";
 
 const ExperienceCard = ({ details }) => {
   return (
-    <div className="project-card">
+    <div className="experience-card">
       <div className="title-icon">
         <h6>{details.title}</h6>
       </div>
-      <div className="project-subject">{details.subject}</div>
-      <ul>
+      <div className="experience-subject">{details.subject}</div>
+      <ul className="experience-details">
         {details.responsibilities.map((item) => (
           <li key={item}>{item}</li>
         ))}
