@@ -1,8 +1,8 @@
 .hero-container {
   display: flex;
   align-items: center;
-  position: relative;
   height: 100vh;
+  margin-bottom: -100px;
 }
 
 .hero-container::after,
@@ -18,13 +18,8 @@
 }
 
 .hero-container::after {
-  top: -3rem;
+  top: -5rem;
   left: -5rem;
-}
-
-.hero-container::before {
-  bottom: 2rem;
-  right: 0rem;
 }
 
 .hero-content {
@@ -138,6 +133,7 @@
 
 @media (max-width: 768px) {
   .hero-container {
+    padding-top: 50px;
     flex-direction: column;
   }
 
@@ -219,5 +215,12 @@
 
   .details {
     font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .tech-icon {
+    width: 3rem;
+    height: 3rem;
   }
 }

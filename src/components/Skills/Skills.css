@@ -81,12 +81,24 @@
 
 @media (max-width: 600px) {
   .skills-container {
-    margin-top: 50px;
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-container {
+    margin-top: 120px;
   }
 }
 
 @media (max-width: 320px) {
   .skills-container {
     margin-top: 120px;
+  }
+}
+
+@media (max-width: 350px) {
+  .skills-container {
+    margin-top: 230px;
   }
 }

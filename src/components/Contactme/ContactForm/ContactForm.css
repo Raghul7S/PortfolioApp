@@ -61,7 +61,7 @@
     transition: all 0.3 ease;
 }
 
-.button:hover{
+.button:active{
     color: #a993fe;
     background: black;
     outline: 1.5px solid #a993fe;
