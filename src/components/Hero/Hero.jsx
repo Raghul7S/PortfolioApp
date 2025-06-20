@@ -11,8 +11,9 @@ const Hero = () => {
             words={["Building Visually Appealing Web and Mobile Apps."]}
             loop={1}
             cursor
-            typeSpeed={80}
+            typeSpeed={60}
             deleteSpeed={50}
+            delaySpeed={2500}
           />
         </h2>
         <p>

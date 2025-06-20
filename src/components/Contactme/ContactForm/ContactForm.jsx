@@ -1,4 +1,4 @@
-import React, {useRef} from 'react'
+import React, {useRef, useState} from 'react'
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -8,9 +8,11 @@ import './ContactForm.css'
 const ContactForm = () => {
 
   const form = useRef();
+  const [loading, setLoading] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setLoading(true)
 
     emailjs
       .sendForm('service_uxkr5ym', 'template_77r12fl', form.current, {
@@ -20,21 +22,23 @@ const ContactForm = () => {
         () => {
           toast.success('Message sent successfully!', {
             position: 'top-right',
-            autoClose: 3000,
+            autoClose: 1500,
             closeButton: false,
             hideProgressBar: true,
             className: 'custom-toast'
           });
           form.current.reset();
+          setLoading(false)
         },
         () => {
           toast.error('Message sent failed!', {
             position: 'top-right',
-            autoClose: 3000,
+            autoClose: 1500,
             closeButton: false,
             hideProgressBar: true,
             className: 'custom-toast'
           });
+          setLoading(false)
         },
       );
   };
@@ -53,7 +57,7 @@ const ContactForm = () => {
           <label className='lable'>Message *</label>
           <textarea name="message" className='text-area' required/>
           
-          <input type="submit" value="Send" className='button'/>
+          <input type="submit" value={loading ? 'Sending...' : "Send"} disabled={loading} className='button'/>
       </form>
       </div>
       <ToastContainer />
