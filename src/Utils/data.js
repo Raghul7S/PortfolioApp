@@ -98,7 +98,7 @@ export const PROJECT_DETAIL = [
       "Ensured the game is responsive and user-friendly.",
       "Added a scoreboard to track the player's score.",
     ],
-    link: "https://github.com/Raghul7S/Flappy-Bird-Game----JS",
+    link: "https://raghul7s.github.io/Flappy-Bird-Game----JS/",
   },
 
   {
@@ -110,7 +110,7 @@ export const PROJECT_DETAIL = [
       "User can enter the name of a city to fetch weather data.",
       "Triggers the weather data fetch for the specified city.",
     ],
-    link: "https://github.com/Raghul7S/WeatherApp",
+    link: "https://raghul7s.github.io/Weather-App/",
   },
 
   {
@@ -121,7 +121,7 @@ export const PROJECT_DETAIL = [
       "Created a basic calculator using HTML, CSS, and JavaScript.",
       "Implemented arithmetic operations such as addition, subtraction, multiplication, and division.",
     ],
-    link: "https://github.com/Raghul7S/Simple-Calculator",
+    link: " https://raghul7s.github.io/Simple-Calculator/",
   },
 
   {
@@ -133,7 +133,7 @@ export const PROJECT_DETAIL = [
       "Focused on designing the user interface (UI) using Bootstrap's components and utilities.",
       "Ensured the website is fully responsive.",
     ],
-    link: "https://github.com/Raghul7S/Online-Academy----Bootstrap",
+    link: "https://raghul7s.github.io/OnlineAcademy/",
   },
 ];
 
