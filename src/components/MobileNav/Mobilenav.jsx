@@ -4,7 +4,7 @@ import "./Mobilenav.css";
 export const Mobilenav = ({ isOpen, toggleMenu }) => {
   const redirectToResume = () => {
     window.open(
-      "https://drive.google.com/file/d/1EL855Vw-XgjBL_-Ks8EeMAWmIhD_612b/view?usp=sharing"
+      "https://drive.google.com/file/d/1kI4bNOvsTdFiqLntPXYVfwANqQzegifV/view?usp=sharing"
     );
   };
 
