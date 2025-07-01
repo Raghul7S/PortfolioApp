@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa";
+import { FaArrowCircleRight } from "react-icons/fa";
 import './ProjectCards.css';
 
 const ProjectCard = ({ title, subject, preview, link, overview }) => {
@@ -25,7 +25,7 @@ const ProjectCard = ({ title, subject, preview, link, overview }) => {
             rel="noopener noreferrer"
             className="icon-link"
           >
-            <FaGithub className="icon" />
+            <FaArrowCircleRight className="icon" />
           </a>
         </p>
       </div>

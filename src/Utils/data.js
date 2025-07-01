@@ -139,7 +139,7 @@ export const PROJECT_DETAIL = [
 
 export const WORK_EXPERIENCE = [
   {
-    title: "1. Grafin IT (June 2024 - Oct 2024)",
+    title: "1. Grafin IT (JUN 2024 - OCT 2024)",
     subject: "Front-end Developer in Web Platform and Mobile Application",
     responsibilities: [
       "Worked on an e-commerce project, developing user interfaces for web applications.",
@@ -151,8 +151,8 @@ export const WORK_EXPERIENCE = [
     ],
   },
   {
-    title: "2. HandBuiltApps (Currently working here)",
-    subject: "Mobile Application Developer Intern",
+    title: "2. HandBuiltApps (NOV 2024 - JUN 2025)",
+    subject: "React Native Developer Intern",
     responsibilities: [
       "Learned and implemented React Native and Redux for mobile application development.",
       "Gained experience in using Xcode for iOS development.",
