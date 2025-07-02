@@ -33,16 +33,27 @@
 
 .text-area {
     height: 78px;
-    overflow: hidden;
+    overflow: auto;
     padding: 8px 8px;
     border: 1.5px solid #6852ba;
     border-radius: 5px;
+    scrollbar-width: 1px;
     font-size: 14px;
     margin-bottom: 10px;
     outline: none;
     color: #fff;
     background-color: transparent;
     transition: border-color 0.3s ease;
+}
+
+.text-area::-webkit-scrollbar {
+    width: 4px;
+    background-color: #fff;
+}
+
+.text-area::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 4px;
 }
 
 .button {
