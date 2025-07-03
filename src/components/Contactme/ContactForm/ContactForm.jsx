@@ -57,7 +57,7 @@ const ContactForm = () => {
           <label className='lable'>Message *</label>
           <textarea name="message" className='text-area' required/>
           
-          <input type="submit" value={loading ? 'Sending...' : "Send"} disabled={loading} className='button'/>
+          <input type="submit" style={{cursor: loading ? 'not-allowed' : 'pointer'}} value={loading ? 'Sending...' : "Send"} disabled={loading} className='button'/>
       </form>
       </div>
       <ToastContainer />
