@@ -7,12 +7,17 @@ const Hero = () => {
     <section className="hero-container" id="hero">
       <div className="hero-content">
         <h2>
+          Hi,
+          <br />
           <Typewriter
-            words={["Building Visually Appealing Web and Mobile Apps."]}
+            words={[ 
+              "I am Raghul", 
+              "I am a Front-End Developer !"
+            ]}
             loop={1}
             cursor
             typeSpeed={60}
-            deleteSpeed={50}
+            deleteSpeed={100}
             delaySpeed={2500}
           />
         </h2>
