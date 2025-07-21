@@ -30,7 +30,6 @@ const Hero = () => {
           boost productivity and simplify debugging.{" "}
         </p>
       </div>
-
       <div className="hero-img">
         <div>
           <div className="top">
