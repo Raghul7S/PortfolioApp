@@ -8,7 +8,7 @@ const Contact = () => {
     <section className="contact-container">
         <h5 id='contact'>Contact Me</h5>
 
-        <div className="contact-content">
+        <div className="contact-content" data-aos="fade-down">
             <div div style={{flex:1}}>
               <a href="mailto:raghulvairavaraj@gmail.com">  
               <ContactInfoCard

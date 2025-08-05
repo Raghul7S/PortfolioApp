@@ -21,7 +21,7 @@ const Hero = () => {
             delaySpeed={2500}
           />
         </h2>
-        <p>
+        <p data-aos='fade-up'>
           Professional front-end developer specializing in React.js and React
           Native with experience in building responsive web and mobile
           applications. Proficient in developing user-centric interfaces and
@@ -30,28 +30,28 @@ const Hero = () => {
           boost productivity and simplify debugging.{" "}
         </p>
       </div>
-      <div className="hero-img">
+      <div className="hero-img" data-aos='fade-left'>
         <div>
           <div className="top">
             <div div className="tech-icon">
-              <img src="./assets/react-img.png" alt="" />
+              <img src="/assets/react-img.png" alt="" />
             </div>
             <div className="tech-icon">
-              <img src="./assets/nodejs-img.png" alt="" />
+              <img src="/assets/nodejs-img.png" alt="" />
             </div>
           </div>
-          <img src="./assets/Me.jpg" className="me" alt="" />
+          <img src="/assets/Me.jpg" className="me" alt="" />
         </div>
 
         <div>
           <div className="tech-icon">
-            <img src="./assets/html-img.png" alt="" />
+            <img src="/assets/html-img.png" alt="" />
           </div>
           <div className="tech-icon">
-            <img src="./assets/css-img.png" alt="" />
+            <img src="/assets/css-img.png" alt="" />
           </div>
           <div className="tech-icon">
-            <img src="./assets/js-img.png" alt="" />
+            <img src="/assets/js-img.png" alt="" />
           </div>
         </div>
       </div>

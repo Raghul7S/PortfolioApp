@@ -2,7 +2,7 @@ import "./ExperienceCard.css";
 
 const ExperienceCard = ({ details }) => {
   return (
-    <div className="experience-card">
+    <div className="experience-card" data-aos='fade-right'>
       <div className="title-icon">
         <h6>{details.title}</h6>
       </div>

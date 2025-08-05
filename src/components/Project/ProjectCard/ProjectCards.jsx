@@ -4,7 +4,7 @@ import './ProjectCards.css';
 
 const ProjectCard = ({ title, subject, preview, link, overview }) => {
   return (
-    <div className="card">
+    <div className="card" data-aos="flip-left">
       <div className="image-wrapper">
         <img src={preview} alt={title} className="image" />
         <div className="overlay">

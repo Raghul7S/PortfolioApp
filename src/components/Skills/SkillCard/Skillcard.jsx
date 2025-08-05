@@ -3,7 +3,7 @@ import './Skillcard.css'
 
 const Skillcard = ({ title, iconUrl, isActive, onClick}) => {
   return (
-    <div className={`skills-card  ${isActive?"active":""}`} onClick={()=>onClick()}>
+    <div className={`skills-card  ${isActive?"active":""}`} onClick={()=>onClick()} data-aos="flip-left">
         <div className="skill-icon">
             <img src={iconUrl} alt={title} />
         </div>

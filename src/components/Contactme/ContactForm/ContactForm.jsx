@@ -44,7 +44,7 @@ const ContactForm = () => {
   };
     
   return (
-    <div className='contact-me'>
+    <div className='contact-me' data-aos="fade-down">
       <div className='about'>
         <form ref={form} onSubmit={sendEmail} className='form'>
           <label className='lable'>Name *</label>

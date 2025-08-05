@@ -3,7 +3,7 @@ import "./SkillsinfoCard.css";
 
 const SkillsinfoCard = ({ heading, skills }) => {
   return (
-    <div className="skills-info-card">
+    <div className="skills-info-card" data-aos='zoom-in'>
       <h6>{heading}</h6>
 
       <div className="skills-info-content">
