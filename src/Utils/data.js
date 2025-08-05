@@ -1,7 +1,7 @@
 export const SKILLS = [
   {
     title: "Frontend",
-    icon: "./assets/frontend-logo.png",
+    icon: `${process.env.PUBLIC_URL}/assets/frontend-logo.png`,
     skills: [
       { skill: "React Native", percentage: "60%" },
       { skill: "React.js", percentage: "60%" },
@@ -13,7 +13,7 @@ export const SKILLS = [
   },
   {
     title: "Backend",
-    icon: "./assets/backend-logo.png",
+    icon: `${process.env.PUBLIC_URL}/assets/backend-logo.png`,
     skills: [
       { skill: "Node.js", percentage: "25%" },
       { skill: "MongoDB", percentage: "50%" },
@@ -21,7 +21,7 @@ export const SKILLS = [
   },
   {
     title: "Tools",
-    icon: "./assets/tools-icon.png",
+    icon: `${process.env.PUBLIC_URL}/assets/tools-icon.png`,
     skills: [
       { skill: "Visual Studio Code", percentage: "90%" },
       { skill:"Xcode", percentage: "50%" },
@@ -31,7 +31,7 @@ export const SKILLS = [
   },
   {
     title: "Soft Skills",
-    icon: "./assets/soft-skills.png",
+    icon: `${process.env.PUBLIC_URL}/assets/soft-skills.png`,
     skills: [
       { skill: "Problem Solving", percentage: "80%" },
       { skill: "Attention To Detail", percentage: "80%" },
@@ -46,7 +46,7 @@ export const PROJECT_DETAIL = [
   {
     title: "Film World",
     subject: "Movie exploring app",
-    preview: './assets/film_app.png',
+    preview: `${process.env.PUBLIC_URL}/assets/film_app.png`,
     overview: [
       "Developed a Movie Search and Discovery App using React and TMDB API.",
       "Integrated TMDB API to get the movies.",
@@ -57,7 +57,7 @@ export const PROJECT_DETAIL = [
   {
     title: "Code Pen Editor",
     subject: "Simple Code Pen Editor",
-    preview: './assets/code_pen.png',
+    preview: `${process.env.PUBLIC_URL}/assets/code_pen.png`,
     overview: [
       "Developed a CodePen clone using React.",
       "Integrated the Codemirror package for accessing HTML, CSS, and JavaScript functionalities.",
@@ -68,7 +68,7 @@ export const PROJECT_DETAIL = [
   {
     title: "Social Media Post App",
     subject: "An CRUD operation App",
-    preview: './assets/post_app.png',
+    preview: `${process.env.PUBLIC_URL}/assets/post_app.png`,
     overview: [
       "Developed a social media post application using React.",
       "Implemented CRUD (Create, Read, Update, Delete) functionality for managing posts.",
@@ -80,7 +80,7 @@ export const PROJECT_DETAIL = [
   {
     title: "GoAt Travel",
     subject: "An Trip booking app UI",
-    preview: './assets/trip_app.png',
+    preview: `${process.env.PUBLIC_URL}/assets/trip_app.png`,
     overview: [
       "Developed a travel trip app UI using React.",
       "Ensured the UI is fully responsive, adapting to various screen sizes and devices.",
@@ -92,7 +92,7 @@ export const PROJECT_DETAIL = [
   {
     title: "Flappy Bird Game",
     subject: "Flappy Bird Clone",
-    preview: './assets/flappybird_app.png',
+    preview: `${process.env.PUBLIC_URL}/assets/flappybird_app.png`,
     overview: [
       "Cloned the popular Flappy Bird game using JavaScript.",
       "Ensured the game is responsive and user-friendly.",
@@ -104,7 +104,7 @@ export const PROJECT_DETAIL = [
   {
     title: "Weather App",
     subject: "Simple Weather App",
-    preview: './assets/weather_app.png',
+    preview: `${process.env.PUBLIC_URL}/assets/weather_app.png`,
     overview: [
       "Created a Weather App using HTML, CSS and JavaScript.",
       "User can enter the name of a city to fetch weather data.",
@@ -116,7 +116,7 @@ export const PROJECT_DETAIL = [
   {
     title: "Simple Calculator",
     subject: "Basic Calculator using JS",
-    preview: './assets/calculator_app.png',
+    preview: `${process.env.PUBLIC_URL}/assets/calculator_app.png`,
     overview: [
       "Created a basic calculator using HTML, CSS, and JavaScript.",
       "Implemented arithmetic operations such as addition, subtraction, multiplication, and division.",
@@ -127,7 +127,7 @@ export const PROJECT_DETAIL = [
   {
     title: "Online Academy",
     subject: "UI of an Academy website",
-    preview: './assets/academy_app.png',
+    preview: `${process.env.PUBLIC_URL}/assets/academy_app.png`,
     overview: [
       "Developed an online software academy website using Bootstrap.",
       "Focused on designing the user interface (UI) using Bootstrap's components and utilities.",

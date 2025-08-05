@@ -12,13 +12,13 @@ const Contact = () => {
             <div div style={{flex:1}}>
               <a href="mailto:raghulvairavaraj@gmail.com">  
               <ContactInfoCard
-                    iconUrl="./assets/email-icon.png"
+                    iconUrl={`${process.env.PUBLIC_URL}/assets/email-icon.png`}
                     text="raghulvairavaraj@gmail.com" 
                 />
                </a> 
                 <a href="https://github.com/Raghul7S">
                 <ContactInfoCard
-                    iconUrl="./assets/github-icon.png"
+                    iconUrl={`${process.env.PUBLIC_URL}/assets/github-icon.png`}
                     text="https://github.com/Raghul7S" 
                 />
                 </a>

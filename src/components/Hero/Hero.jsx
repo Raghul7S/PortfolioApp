@@ -34,24 +34,24 @@ const Hero = () => {
         <div>
           <div className="top">
             <div div className="tech-icon">
-              <img src="/assets/react-img.png" alt="" />
+              <img src={`${process.env.PUBLIC_URL}/assets/react-img.png`} alt="" />
             </div>
             <div className="tech-icon">
-              <img src="/assets/nodejs-img.png" alt="" />
+              <img src={`${process.env.PUBLIC_URL}/assets/nodejs-img.png`} alt="" />
             </div>
           </div>
-          <img src="/assets/Me.jpg" className="me" alt="" />
+          <img src={`${process.env.PUBLIC_URL}/assets/Me.jpg`} className="me" alt="" />
         </div>
 
         <div>
           <div className="tech-icon">
-            <img src="/assets/html-img.png" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/assets/html-img.png`} alt="" />
           </div>
           <div className="tech-icon">
-            <img src="/assets/css-img.png" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/assets/css-img.png`} alt="" />
           </div>
           <div className="tech-icon">
-            <img src="/assets/js-img.png" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/assets/js-img.png`} alt="" />
           </div>
         </div>
       </div>
