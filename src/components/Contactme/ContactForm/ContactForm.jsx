@@ -46,7 +46,6 @@ const ContactForm = () => {
   return (
     <div className='contact-me'>
       <div className='about'>
-
         <form ref={form} onSubmit={sendEmail} className='form'>
           <label className='lable'>Name *</label>
           <input type="text" name="from_name" className='input' required/>
@@ -56,7 +55,6 @@ const ContactForm = () => {
 
           <label className='lable'>Message *</label>
           <textarea name="message" className='text-area' required/>
-          
           <input type="submit" style={{cursor: loading ? 'not-allowed' : 'pointer'}} value={loading ? 'Sending...' : "Send"} disabled={loading} className='button'/>
       </form>
       </div>
