@@ -2,7 +2,7 @@ import { useRef } from "react";
 import Slider from "react-slick";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
-import { WORK_EXPERIENCE } from "../../utils/data";
+import {WORK_EXPERIENCE} from '../../Utils/data';
 import ExperienceCard from "./ExperienceCard/ExperienceCard";
 import "./Experience.css";
 
