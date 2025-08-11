@@ -61,7 +61,7 @@
   justify-content: center;
   text-align: center;
   border-radius: 0.65rem;
-  border: 1.5px solid #6852ba;
+  border: 1.5px solid var(--BorderColor);
 }
 
 .tech-icon img {
@@ -73,20 +73,6 @@
 .hero-img > div > img:hover,
 .tech-icon img:hover {
   transform: translateY(-0.5rem);
-}
-
-.about-me {
-  margin-top: 15px;
-}
-
-.details {
-  display: flex;
-  left: 0;
-  padding: 13px 0;
-  margin-top: 10px;
-  line-height: 25px;
-  border: 1.5px solid #6852ba;
-  border-radius: 10px;
 }
 
 @media (max-width: 1025px) {

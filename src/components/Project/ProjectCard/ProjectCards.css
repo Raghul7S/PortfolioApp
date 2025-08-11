@@ -1,11 +1,11 @@
 .card {
   margin-top: 1rem;
-  background: #130f2a;
-  border: 1.5px solid #6751b9;
+  background: var(--FormBg);
+  border: 1.5px solid var(--BorderColor);
   border-radius: 0.65rem;
   overflow: hidden;
   width: 290px;
-  color: #ffffff;
+  color: var(--ColorWhite);
   transition: transform 0.3s ease;
 }
 
@@ -20,7 +20,7 @@
   width: 100%;
   height: 180px;
   overflow: hidden;
-  border-bottom: 1px solid #6751b9;
+  border-bottom: 1px solid var(--BorderColor);
   border-bottom-right-radius: 0.33rem;
   border-bottom-left-radius: 0.33rem;
   box-shadow: 0 8px 20px rgba(103, 81, 185, 0.4);
@@ -31,8 +31,8 @@
   bottom: 0;
   left: 0;
   height: 0;
-  background: rgba(0, 0, 0, 0.9);
-  color: white;
+  background: var(--Overlay);
+  color: var(--ColorWhite);
   overflow: hidden;
   transition: height 0.4s ease;
   display: flex;
@@ -47,7 +47,7 @@
 
 .card:hover {
   transform: scale(1.02);
-  box-shadow: 0 8px 20px rgba(103, 81, 185, 0.4);
+  box-shadow: 0 8px 20px var(--CardShadow);
 }
 
 .overlay-text {
@@ -67,7 +67,6 @@
 
 .subject {
   font-size: 0.95rem;
-  color: #cfcfcf;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -75,7 +74,7 @@
 
 .icon-link {
   padding-top: 10px;
-  color: #cfcfcf;
+  color: var(--ColorWhite);
   text-decoration: none;
   animation: zoom 2s infinite;
 }

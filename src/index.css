@@ -8,6 +8,21 @@
 }
 
 body{
-  color: #fff;
-  background-color: #060417;
+  color: var(--ColorWhite);
+  background-color: var(--PrimaryColor);
+}
+
+:root{
+    --PrimaryColor: #060417;
+    --ColorWhite: #fff;
+    --BorderColor: #6751b9;
+    --ButtonColor: linear-gradient(90deg, #b9aaf8, #7e61e7 100%);
+    --ExperienceColor: rgba(103, 81, 185, 0.5);
+    --SkillsBg: rgba(22, 17, 47, 0.398);
+    --BlurBg: #2a2252;
+    --FormBg: #130f2a;
+    --Transparent: 'transparent';
+    --MobileNav: #342864;
+    --Overlay: rgba(0, 0, 0, 0.9);
+    --CardShadow: rgba(103, 81, 185, 0.4)
 }
