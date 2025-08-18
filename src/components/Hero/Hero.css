@@ -10,17 +10,17 @@
 }
 
 .hero-content h2 {
-  font-size: 3.8rem;
+  font-size: 60px;
   font-weight: 600;
-  line-height: 5rem;
-  margin-bottom: 1rem;
+  line-height: 72px;
+  margin-bottom: 16px;
 }
 
 .hero-content p {
   width: 80%;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 2rem;
+  line-height: 32px;
 }
 
 .me {
@@ -32,71 +32,71 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
-  margin-top: 5rem;
+  gap: 32px;
+  margin-top: 80px;
 }
 
 .hero-img > div {
   display: flex;
   align-items: flex-end;
-  gap: 2rem;
+  gap: 32px;
 }
 
 .top {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 32px;
 }
 
 .hero-img > div > img {
-  width: 25rem;
+  width: 400px;
   transition: all 0.3s ease;
 }
 
 .tech-icon {
-  width: 5rem;
-  height: 5rem;
+  width: 80px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  border-radius: 0.65rem;
+  border-radius: 10px;
   border: 1.5px solid var(--BorderColor);
 }
 
 .tech-icon img {
-  width: 3rem;
+  width: 48px;
   height: auto;
   transition: all 0.3s ease;
 }
 
 .hero-img > div > img:hover,
 .tech-icon img:hover {
-  transform: translateY(-0.5rem);
+  transform: translateY(-8px);
 }
 
 @media (max-width: 1025px) {
   .hero-content h2 {
-    font-size: 3rem;
-    line-height: 4rem;
+    font-size: 48px;
+    line-height: 64px;
   }
 
   .hero-content p {
-    font-size: 0.8rem;
-    line-height: 1.6rem;
+    font-size: 12.8px;
+    line-height: 25.6px;
   }
 
   .hero-img > div > img {
-    width: 20rem;
+    width: 320px;
   }
 
   .tech-icon {
-    width: 4rem;
-    height: 4rem;
+    width: 64px;
+    height: 64px;
   }
 
   .tech-icon img {
-    width: 2.5rem;
+    width: 40px;
   }
 }
 
@@ -107,11 +107,11 @@
   }
 
   .hero-img {
-    margin: 2rem 0 2rem 0;
+    margin: 32px 0 32px 0;
   }
 
   .hero-container h2 {
-    margin-top: 3rem;
+    margin-top: 48px;
   }
 
   .hero-content h2,
@@ -123,8 +123,8 @@
   .hero-container::after,
   .hero-container::before {
     content: "";
-    width: 18rem;
-    height: 18rem;
+    width: 288px;
+    height: 288px;
   }
 
   .hero-container::after {
@@ -133,12 +133,12 @@
   }
 
   .hero-container::before {
-    bottom: 2rem;
+    bottom: 32px;
     right: 0rem;
   }
 
   .details {
-    font-size: 0.8rem;
+    font-size: 12.8px;
   }
 }
 
@@ -148,48 +148,48 @@
   }
   
   .hero-container h2 {
-    font-size: 2.2rem;
-    line-height: 3rem;
+    font-size: 35.2px;
+    line-height: 48px;
   }
 
   .hero-content p {
-    font-size: 0.8rem;
-    line-height: 1.3rem;
+    font-size: 12.8px;
+    line-height: 20.8px;
   }
 
   .hero-img {
-    gap: 1rem;
+    gap: 16px;
   }
 
   .top {
-    gap: 1rem;
+    gap: 16px;
   }
 
   .hero-img > div {
-    gap: 1rem;
+    gap: 16px;
   }
 
   .hero-img > div > img {
-    width: 16rem;
+    width: 256px;
   }
 
   .tech-icon {
-    width: 3.3rem;
-    height: 3.3rem;
+    width: 52.8px;
+    height: 52.8px;
   }
 
   .tech-icon img {
-    width: 2rem;
+    width: 32px;
   }
 
   .details {
-    font-size: 0.6rem;
+    font-size: 9.6px;
   }
 }
 
 @media (max-width: 320px) {
   .tech-icon {
-    width: 3rem;
-    height: 3rem;
+    width: 48px;
+    height: 48px;
   }
 }
