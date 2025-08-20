@@ -15,7 +15,7 @@ export const Mobilenav = ({ isOpen, toggleMenu }) => {
         onClick={toggleMenu}
       >
         <div className="mobile-menu-container">
-          <h1 className="logo" style={{ color: "white" }}>
+          <h1 className="logo">
             RAGHUL V
           </h1>
 

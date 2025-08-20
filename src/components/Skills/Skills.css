@@ -55,21 +55,3 @@
     height: 18rem;
   }
 }
-
-@media (max-width: 600px) {
-  .skills-container {
-    margin-top: 200px;
-  }
-}
-
-@media (max-width: 768px) {
-  .skills-container {
-    margin-top: 320px;
-  }
-}
-
-@media (max-width: 390px) {
-  .skills-container {
-    margin-top: 290px;
-  }
-}
