@@ -139,7 +139,7 @@ export const PROJECT_DETAIL = [
 
 export const WORK_EXPERIENCE = [
   {
-    title: "1. Grafin IT (JUN 2024 - OCT 2024)",
+    title: "1. Mobbicare Software Company (JUN 2024 - OCT 2024)",
     subject: "Front-end Developer in Web Platform and Mobile Application",
     responsibilities: [
       "Worked on an e-commerce project, developing user interfaces for web applications.",
