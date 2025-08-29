@@ -6,7 +6,7 @@
 .skills-container h5 {
   font-size: 1.5rem;
   font-weight: 600;
-  margin-bottom: 3.5rem;
+  margin-bottom: 3rem;
 }
 
 .skills-content {
@@ -35,7 +35,7 @@
 
 @media (max-width: 768px) {
   .skills-content {
-    flex-direction: column-reverse;
+    flex-direction: column;
     gap: 3rem;
   }
 

@@ -1,6 +1,7 @@
 .contact-me{
     width: 100%;
     background: var(--FormBg);
+    border-radius: 10px;
 }
 
 .about{

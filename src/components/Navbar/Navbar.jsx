@@ -3,6 +3,7 @@ import "./Navbar.css";
 import { TbGridDots } from "react-icons/tb";
 import { IoMdClose } from "react-icons/io";
 import { Mobilenav } from "../MobileNav/Mobilenav";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -29,29 +30,29 @@ const Navbar = () => {
 
           <ul>
             <li>
-              <a className="menu-item" href="#hero">
+              <Link className="menu-item" to="hero">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="menu-item" href="#skills">
+              <Link className="menu-item" to="skills">
                 Skills
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="menu-item" href="#experience">
+              <Link className="menu-item" to="experience">
                 Experience
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="menu-item" href="#projects">
+              <Link className="menu-item" to="projects">
                 Projects
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="menu-item" href="#contact">
+              <Link className="menu-item" to="contact">
                 Contact Me
-              </a>
+              </Link>
             </li>
 
             <button className="contact-btn" onClick={redirectToResume}>
