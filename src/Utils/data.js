@@ -5,10 +5,11 @@ export const SKILLS = [
     skills: [
       { skill: "React Native", percentage: "60%" },
       { skill: "React.js", percentage: "60%" },
-      { skill: "Responsive Design", percentage: "80%" },
-      { skill: "BootStrap", percentage: "50%" },
+      { skill: "JavaScript", percentage: "45%" },
       { skill: "HTML5", percentage: "95%" },
+      { skill: "BootStrap", percentage: "50%" },
       { skill: "CSS{Sass/Scss}", percentage: "90%" },
+      { skill: "Responsive Design", percentage: "80%" }
     ],
   },
   {
