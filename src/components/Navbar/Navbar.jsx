@@ -14,7 +14,7 @@ const Navbar = () => {
 
   const redirectToResume = () => {
     window.open(
-      "https://drive.google.com/file/d/1heeMaY5vlJwfZaUZP79T54KtDmdEDXcz/view?usp=sharing"
+      "https://drive.google.com/file/d/1CtnwOYgCzH8JEHTkBqLWKbmbNwIXbD8x/view?usp=sharing"
     );
   };
 
